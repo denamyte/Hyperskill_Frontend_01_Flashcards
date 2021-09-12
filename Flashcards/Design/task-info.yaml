@@ -257,6 +257,18 @@ files:
 - name: src/img/world-map.jpg
   visible: true
   learner_created: true
+- name: src/img/world.png
+  visible: true
+  learner_created: true
+- name: src/fonts/RobotoCondensed-Regular.ttf
+  visible: true
+  learner_created: true
+- name: src/fonts/Oswald-VariableFont_wght.ttf
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/115/stages/626/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 12 Sep 2021 19:36:04 UTC
 record: -1
