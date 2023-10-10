@@ -1,0 +1,64 @@
+@font-face {
+    font-family: myRoboto;
+    src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+@font-face {
+    font-family: myOswald;
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+
+html, body, .quiz-area {
+    height: 100%;
+}
+
+body {
+    background-image: url("../img/world-map.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.quiz-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: min(5vw, 5vh) 0 min(3vw, 5vh) 0;
+    color: #544029;
+    font-family: myRoboto, serif;
+    font-size: calc(12px + min(5vw, 5vh));
+    min-font-size: 1em;
+    background-color: rgba(250, 250, 250, .6);
+    box-shadow: 0 0 20px rgb(250, 250, 250);
+    padding: 5px;
+    border-radius: 5% / 50%;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    width: min(60vw, 60vh);
+    height: min(60vw, 60vh);
+    min-width: 200px;
+    min-height: 200px;
+    padding: 1vw;
+    border-radius: 5%;
+}
+
+.card {
+    margin: 1.6%;
+    width: 28.5%;
+    height: 28.5%;
+    border-radius: 20%;
+    background-color: rgba(231, 218, 207, .9);
+    box-shadow: 0 0 5px rgba(231, 218, 207, .9);
+    font-family: myOswald, serif;
+    font-size: calc(5px + min(2vw, 2vh));
+    color: #624b2f;
+    font-weight: bold;
+    text-align: center;
+}
