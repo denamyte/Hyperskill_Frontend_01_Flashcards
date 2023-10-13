@@ -12,7 +12,7 @@ html, body, .quiz-area {
 }
 
 body {
-    background-image: url("../img/world-map.jpg");
+    background-image: url("../img/world.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;

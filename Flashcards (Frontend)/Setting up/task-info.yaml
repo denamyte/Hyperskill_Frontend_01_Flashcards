@@ -58,6 +58,6 @@ files:
           await new FlashcardsTest().runTests()
       }, 30000)
     learner_created: false
-feedback_link: https://hyperskill.org/projects/115/stages/625/implement#comment
+feedback_link: https://hyperskill.org/learn/step/10245#comment
 status: Solved
 record: 2
